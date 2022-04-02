@@ -20,3 +20,8 @@ sudo cp config.rasi ~/.config/rofi
 sudo cp themes.rasi /usr/share/rofi
 sudo reboot
 ```
+# Configuring Gtk File Chooser
+```
+gsettings set org.gtk.Settings.FileChooser window-size '(800, 600)'
+gsettings get org.gtk.Settings.FileChooser window-position '(800, 600)'
+```
