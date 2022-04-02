@@ -11,6 +11,7 @@ i3 rofi xcompmgr feh
 ```
 git clone https://github.com/baraeerriyachy/i3wm.git
 cd i3wm
+feh --bg-scale wallpaper.jpg
 cp .xinitrc ~/
 cp .bash_profile ~/
 cp config ~/.config/i3
