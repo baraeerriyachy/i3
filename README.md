@@ -2,6 +2,11 @@
 ```
 My i3 configuration
 ```
+# Requirement
+```
+i3 rofi
+```
+
 # Installation
 ```
 git clone https://github.com/baraeerriyachy/i3wm.git
