@@ -17,5 +17,6 @@ cp .bash_profile ~/
 cp config ~/.config/i3
 sudo cp i3status.conf /etc
 sudo cp config.rasi ~/.config/rofi
-sudo cp themes.rasi /usr/share/rofi/themes
+sudo cp themes.rasi /usr/share/rofi
+sudo reboot
 ```
