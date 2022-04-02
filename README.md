@@ -4,7 +4,7 @@ My i3 configuration
 ```
 # Requirement
 ```
-i3 rofi xcompmgr feh
+i3 rofi xcompmgr feh xorg-xinitrc
 ```
 
 # Installation
