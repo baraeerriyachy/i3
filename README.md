@@ -4,7 +4,7 @@ My i3 configuration
 ```
 # Requirement
 ```
-i3 rofi xcompmgr feh xorg-xinitrc
+i3 rofi xcompmgr feh xorg-xinitrc ttf-awesome-font
 ```
 
 # Installation
