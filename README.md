@@ -4,7 +4,7 @@ My i3 configuration
 ```
 # Requirement
 ```
-i3 rofi xcompmgr feh xorg xorg-server xorg-xinitrc ttf-font-awesome pulseaudio 
+i3 xcompmgr feh xorg xorg-server xorg-xinitrc ttf-font-awesome pulseaudio 
 ```
 
 # Installation
@@ -15,13 +15,10 @@ cp .xinitrc ~/
 cp .bash_profile ~/
 cp config ~/.config/i3
 sudo cp i3status.conf /etc
-mkdir ~/.config/rofi
-sudo cp config.rasi ~/.config/rofi
-sudo cp theme.rasi /usr/share/rofi/themes
 cd ~/.config
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 sudo reboot
-feh --bg-scale ~/i3wm/wallpaper.jpg
+feh --bg-scale [Your wallpaper PATH]
 ```
 # Configuring Gtk File Chooser
 ```
