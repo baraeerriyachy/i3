@@ -12,11 +12,9 @@ i3 xcompmgr feh xorg xorg-server xorg-xinitrc ttf-font-awesome pulseaudio
 git clone https://github.com/baraeerriyachy/i3wm.git
 cd i3wm
 cp .xinitrc ~/
-cp .bash_profile ~/
+cp .bash_profile ~/     (or .zprofile if you are using zsh)
 cp config ~/.config/i3
 sudo cp i3status.conf /etc
-cd ~/.config
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 sudo reboot
 feh --bg-scale [Your wallpaper PATH]
 ```
