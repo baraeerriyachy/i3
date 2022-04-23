@@ -3,10 +3,14 @@
 My i3 configuration
 ```
 # Requirement
-```
-i3 xcompmgr feh xorg xorg-server xorg-xinitrc ttf-font-awesome pulseaudio 
-```
-
+- i3-gaps
+- i3status
+- xcompmgr 
+- feh 
+- xorg-server 
+- xorg-xinitrc 
+- pulseaudio 
+- ttf-font-awesome 
 # Installation
 ```
 git clone https://github.com/baraeerriyachy/i3wm.git
